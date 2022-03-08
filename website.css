@@ -1,9 +1,5 @@
-/* @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
-@import url("https://fonts.googleapis.com/css?family=Orbitron:700"); */
-/* @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500"); */
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Orbitron:700");
-/* @import url("https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap"); */
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Quattrocento+Sans:wght@400;700&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Arvo:wght@700&family=Poppins:wght@100&family=Ubuntu+Mono&display=swap');
 
@@ -1358,9 +1354,9 @@ strong {
   display: none;
 }
 
-#check {
+/* #check {
   display: none;
-}
+} */
 
 @media screen and (max-width: 1598px) {
   .under-top-section::before .under-top-section::after {
@@ -1494,12 +1490,13 @@ strong {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-  }
-
-  #check:checked~.nav-links-container {
-    left: 0;
     transition: 1s;
   }
+
+    /* #check:checked~.nav-links-container {
+    left: 0;
+    transition: 1s;
+  } */
 
   .nav-link {
     display: block;
@@ -2327,3 +2324,7 @@ background:url("./project-icon-white.png") no-repeat center ;
 position: absolute;
 inset: 0;
 background-size: 40%; */
+
+.activess{
+  left: 0;
+}
