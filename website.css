@@ -1568,7 +1568,12 @@ strong {
     margin: 0;
     text-align: center;
   }
+.activess{
+  left: 0;
+ }
 }
+
+
 
 @media screen and (max-width:768px) {
   .half-big-text.has-border {
@@ -2324,7 +2329,3 @@ background:url("./project-icon-white.png") no-repeat center ;
 position: absolute;
 inset: 0;
 background-size: 40%; */
-
-.activess{
-  left: 0;
-}
